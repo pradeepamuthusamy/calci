@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div id="main">
+    <textarea name="text" id="textview" cols="10" rows="10"></textarea>   
+    <div id="upper">
+    <button id="1" class="col1" onclick="one()">1</button>
+    <button id="2" class="col1" onclick="two()">2</button>
+    <button id="3" class="col1" onclick="three()">3</button>
+    <button id="+" class="col1" onclick="plus()">+</button>
+    </div>
+    <div id="midd">
+    <button id="4" class="col2" onclick="four()">4</button>
+    <button id="5" class="col2" onclick="five()">5</button>
+    <button id="6" class="col2" onclick="six()">6</button>
+    <button id="-" class="col2" onclick="sub()">-</button>
+    </div>
+    <div id="midd2"> 
+    <button id="7" class="col3" onclick="seven()">7</button>
+    <button id="8" class="col3" onclick="eight()">8</button>
+    <button id="9" class="col3" onclick="nine()">9</button>
+    <button id="*" class="col3" onclick="mul()">*</button>
+    </div>
+    <div id="bottom">
+    <button id="." class="col4" onclick="point()">.</button>
+    <button id="0" class="col4" onclick="zero()">0</button>
+    <button id="/" class="col4" onclick="divide()">/</button>
+    <button id="+" class="col4" onclick="esc()">AC</button>
+    </div>
+    <div id="bottom2">
+    <button id="=" class="col5" onclick="calc()">=</button>
+    <button id="clear" class="col5" onclick="clr()">clear</button>
+    </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
